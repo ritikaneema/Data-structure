@@ -1,7 +1,7 @@
 #selectionSort
 def selectionSort(arr):
      n=len(arr) #length of array
-     for i in range (n):
+     for i in range (n):#Main loop
          min_i=i
          for j in range(i+1,n): #i is min then check from i+1
              if arr[min_i]>arr[j]:
